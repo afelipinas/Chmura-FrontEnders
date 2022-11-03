@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2? family= PT+Serif:ital@1 & display=swap');
+
+.footer{
+    font-weight: bold;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+   
+
+ 
+}
+
+
+
+.flex{
+    position: relative;
+    overflow: hidden;
+    background: #fff url(/assets/images/img.jpg) center top/cover no-repeat;
+      opacity: 0.8;
+}
+
+.flex h1{ margin-top: 15px;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+padding: 50px;
+position: relative;
+z-index: 2;
+color: rgb(216, 213, 255);
+font-style: italic;
+}
+
+
+.flex p{
+    text-align:center;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 22%;
+    color: rgb(255, 255, 255);
+    margin-top: 1%; 
+    font-style: italic
+}
+
