@@ -29,7 +29,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .flex{
     /* position: relative; */
     overflow: hidden;
-    background: #fff url(/img/img.jpg) center top/cover no-repeat;
+    background: #fff url(/Chmura-FrontEnders/assets/images/img.jpg) center top/cover no-repeat;
       opacity: 0.8;
       
       display: flex;

@@ -1,0 +1,7 @@
+#linkRodape{
+    text-decoration: none;
+}
+
+#linkRodape:hover{
+    text-decoration: underline;
+}
