@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family= PT+Serif:ital@1 & display=swap');
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+body{
+  background: linear-gradient(100deg, rgba(1, 41, 102, 1.473) 16.62%
+  , rgba(48, 0, 104, 1.877) 85.61%)
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-tittle{
+    text-align: center;
+    margin-top: 3%;
+    font-family:'PT Serif', serif; ;
+    margin-bottom: 4%;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.team{
+    width: 960px;
+}
+.team-list{
+display:flex;
+justify-content: space-around;
+}
+
+.team-list li{
+    list-style: none;
+}
+.team-figure{
+    margin-top: 2%;
+    width: 160px;
+    height: 160px;
+
+    border-radius: 50%;
+    overflow:hidden}
+
+  .team-figure img {
+    width: 100%;
+    filter: grayscale(100%);
+  }  
+
+  .team-link:hover .team-figure img{
+    filter: none;
+
+  }
+
+  .team-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    color: white;
+  }
+
+  .team-description:target{
+    display: flex;
+  }
+
+  .team-name{
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .cargo{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+ .redesocial{
+   width: 35px;
+  
+ }
