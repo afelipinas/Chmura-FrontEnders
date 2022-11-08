@@ -13,33 +13,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/footer.css">
     <title>LogIn</title>
 </head>
 <body class="text-center">
     <!--Cabeçalho da página-->
-<nav class="navbar" style="background: linear-gradient(100deg, rgba(1, 41, 102, 1.473) 16.62%, rgba(48, 0, 104, 1.877) 85.61%);">
-    <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="" alt="" width="60%" height="25%"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="offcanvas offcanvas-end " style="background: linear-gradient(100deg, rgba(1, 41, 102, 0.473) 16.62%, rgba(48, 0, 104, 0.877) 85.61%);" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+    <nav class="navbar" style="background: linear-gradient(100deg, rgba(1, 41, 102, 1.473) 16.62%
+    , rgba(48, 0, 104, 1.877) 85.61%);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/images/chmura.png" alt="" width="15%" height="15%">
+              </a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end " style="background: linear-gradient(100deg, rgba(1, 41, 102, 1.473) 16.62%
+          , rgba(48, 0, 104, 1.877) 85.61%);" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" style="color:white" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" style="color:white" aria-current="page" href="./index.html">Home</a>
                   <a class="nav-link" style="color:white" href="#">Planos</a>
-                  <a class="nav-link" style="color:white" href="#">LogIn</a>
-                  <a class="nav-link" style="color:white" href="#">Contatos</a>
+                  <a class="nav-link" style="color:white" href="./pages/login.html">LogIn</a>
+                  <a class="nav-link" style="color:white" href="./pages/contatos.html">Contatos</a>
               </ul>
-            <form class="d-flex mt-3" role="search">
+              <form class="d-flex mt-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-light btn btn-outline-dark" type="submit">Search</button>
-            </form>
+              </form>
             </div>
+          </div>
         </div>
-    </div>
-</nav>
+      </nav>
 <div class="spaceHeader"></div>
 
 <!--Conteudo Pagina de LogIn-->
@@ -85,10 +92,10 @@
         <span class="text-muted">
           <p class="autores" style="color:white">
             Projeto feito por
-            <a target="_blank" style="color:white" href="https://github.com/afelipinas">Felipe</a>, 
-            <a target="_blank" style="color:white" href="https://github.com/GabrielGervasio">Gabriel</a>,
-            <a target="_blank" style="color:white" href="https://github.com/millenakeli">Millena</a> e
-            <a target="_blank" style="color:white" href="https://github.com/vinicius170">Vinicius</a>.
+            <a target="_blank" id="linkRodape" style="color:white" href="https://github.com/afelipinas">Felipe</a>, 
+            <a target="_blank" id="linkRodape" style="color:white" href="https://github.com/GabrielGervasio">Gabriel</a>,
+            <a target="_blank" id="linkRodape" style="color:white" href="https://github.com/millenakeli">Millena</a> e
+            <a target="_blank" id="linkRodape" style="color:white" href="https://github.com/vinicius170">Vinicius</a>.
           </p>
           <p class="direitos" style="color: white">
              ©2022 - Todos os direitos reservados

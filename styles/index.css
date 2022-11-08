@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= PT+Serif:ital@1 & display=swap');
 
-.footer{
-    font-weight: bold;
-    text-align: center;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-   
 
- 
-}
 
 .sla{
     display: flex;
