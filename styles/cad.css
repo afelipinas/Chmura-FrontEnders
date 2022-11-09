@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(1,41,102);
+    background: linear-gradient(90deg, rgba(1,41,102,1) 0%, rgba(9,9,121,1) 35%, rgba(48,0,104,1) 100%);
+}
+
+
+
+.cut{
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    
+    width: 600px;
+    height: 940px;
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: 100px;
+    background-color: rgba(106, 146, 173, 0.5);
+    border-radius: 10px;
+}
+.tdsputs{
+    border-radius: 5px;
+}
+.tdsputs:hover{
+    background-color: #444;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;;
+}
+#h1{
+    font-size: 70px;
+}
+.coloque{
+    font-size: 20px;
+}
+
+.nominho{
+    display: flex;
+    flex-direction: column;  
+    
+}
+.nominho input {
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+
+.registros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40px;
+}
+
+.cepi{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.cepl{
+    margin-left: 110px;
+}
+#cep{
+    width: 50%;
+    
+}
+.cuboCep{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border:none
+    
+}
+.cidade, .rua, .lugar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    height: 200px;
+}
+.cidade1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.complemento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#bairro{
+    width: 80%;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    
+}
+.dados div{
+    margin-bottom: 20px;}
+
+#buta{
+
+    width: 45%;
+    height: 50px;
+    background-color: rgb(99, 201, 51);
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+}
+.buta2{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#nomeProjeto{
+    margin-top: 15px;
+    color: #737373;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
