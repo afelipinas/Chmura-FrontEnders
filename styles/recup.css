@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100%;
+    position: relative;
+    background: rgb(1,41,102);
+    background: linear-gradient(90deg, rgba(1,41,102,1) 0%, rgba(9,9,121,1) 35%, rgba(48,0,104,1) 100%);
+}
+
+main{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.telaRecup{
+    margin-top: 90px;
+    padding: 60px;
+    background-color: rgba(78, 107, 126, 0.5);
+    border-radius: 10px;
+    z-index: 90;
+}
+
+.entText {
+    width: 45vh;
+    height: 27px;
+}
+
+#titleRecup{
+    color: white;
+}
+
+.telaRecup button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(99, 201, 51);
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.telaRecup button:hover{
+    background-color: rgb(115, 241, 57);
+    cursor: pointer;
+}
+

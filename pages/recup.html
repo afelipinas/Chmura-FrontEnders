@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./recup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/recup.css">
+    <title>Recuperação de Senha</title>
+</head>
+<body class="text">
+    <!-- Cabeçalho da página -->
+<nav class="navbar" style="background: linear-gradient(100deg, rgba(1, 41, 102, 1.473) 16.62%, rgba(48, 0, 104, 1.877) 85.61%);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../assets/images/chmura.png" alt="" width="30%" height="30%"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end " style="background: linear-gradient(100deg, rgba(1, 41, 102, 1.473) 16.62%, rgba(48, 0, 104, 1.877) 85.61%);" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" style="color:white" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link" style="color:white" href="./planos.html">Planos</a>
+                  <a class="nav-link" style="color:white" href="./login.html">LogIn</a>
+                  <a class="nav-link" style="color:white" href="./contatos.html">Contatos</a>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-light btn btn-outline-dark" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Conteúdo tela Recuperação -->
+<main>
+  <div class="telaRecup">
+      <div class="corpoRecup">
+        <h2 class="mb-3 fw-normal" id="titleRecup">Recuperação de Senha</h2>
+        <form>
+            <div  id="">
+                <input required class="entText" type="email" placeholder="Digite seu Email">
+            </div>
+            <div><p class="reportErro"></p></div>
+            <div>
+                <button type="submit" class="w-100 btn-primary" id="submBut">Enviar</button>
+            </div>
+        </form>
+      </div>
+  </div>
+
+</main>
+
+
+<!--Rodapé da Pagina-->
+<footer class="footer" style="background: linear-gradient(100deg, rgba(1, 41, 102, 1.473) 16.62%, rgba(48, 0, 104, 1.877) 85.61%)">
+<div class="container" style="display: flex; flex-direction:row; justify-content:center ">
+    <span class="text-muted">
+          <p class="autores" style="color:white">
+            Projeto feito por
+            <a target="_blank" id="linkRodape" style="color:white" href="https://github.com/afelipinas">Felipe</a>, 
+            <a target="_blank" id="linkRodape" style="color:white" href="https://github.com/GabrielGervasio">Gabriel</a>,
+            <a target="_blank" id="linkRodape" style="color:white" href="https://github.com/millenakeli">Millena</a> e
+            <a target="_blank" id="linkRodape" style="color:white" href="https://github.com/vinicius170">Vinicius</a>.
+          </p>
+          <p class="direitos" style="color: white">©2022 - Todos os direitos reservados</p>
+    </span> 
+</div>
+</footer>
+    
+</body>
+</html>

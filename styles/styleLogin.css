@@ -33,7 +33,7 @@ main{
 
 #telaLogin{
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
     padding: 60px;
     z-index: 90;
     position: relative;
@@ -135,6 +135,21 @@ main{
     font-size: 13px;
     display: flex;
     justify-content: center;
+}
+
+.forgPass{
+    color: #d1cfcf;
+    font-size: 16px;
+}
+
+.forgPass a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.forgPass a:hover{
+    text-decoration: underline;
 }
   
 
