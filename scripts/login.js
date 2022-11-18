@@ -30,7 +30,7 @@ function validaSenha(password){
     return padraoSenha.test(password);
 }
 
-form.addEventListener("submit", (e) =>{
+form.addEventListener("submit", () =>{
     if(email.value == '' && password.value == ''){
         alert("Você precisa preencher todos os campos")
     }else if(validaEmail(email.value) === true && validaSenha(password.value) === true){

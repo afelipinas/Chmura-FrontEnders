@@ -4,12 +4,19 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.body{
+   background: rgb(1,41,102);
+    background: linear-gradient(90deg, rgba(1,41,102,1) 0%, rgba(9,9,121,1) 35%, rgba(48,0,104,1) 100%);
+}
+
 main{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: rgb(19, 64, 133);
+    
 }
 .caixaConteudo{
     position: relative;
