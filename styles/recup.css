@@ -27,8 +27,8 @@ main{
     z-index: 90;
 }
 
-.entText {
-    width: 45vh;
+#entText {
+    width: 50vh;
     height: 27px;
 }
 
@@ -53,3 +53,7 @@ main{
     cursor: pointer;
 }
 
+#reportErro{
+    color: yellow;
+    font-size: 12px;
+}

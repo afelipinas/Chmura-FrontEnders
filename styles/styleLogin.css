@@ -151,5 +151,13 @@ main{
 .forgPass a:hover{
     text-decoration: underline;
 }
-  
+ 
+#reportEmail{
+    color: yellow;
+    font-size: 12px;
+}
 
+#reportSenha{
+    color: yellow;
+    font-size: 12px;
+}
