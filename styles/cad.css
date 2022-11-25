@@ -7,7 +7,9 @@ body{
     background: linear-gradient(90deg, rgba(1,41,102,1) 0%, rgba(9,9,121,1) 35%, rgba(48,0,104,1) 100%);
 }
 
-
+label{
+    color: white;
+}
 
 .cut{
     display: flex;

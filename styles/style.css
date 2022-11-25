@@ -11,17 +11,19 @@
 }
 
 main{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     min-height: 100vh;
     background: rgb(19, 64, 133);
     
 }
+
 .caixaConteudo{
     position: relative;
     display: flex;
     justify-content: center;
+    margin-left: 15vh;
     align-items: center;
     max-width: 1200px;
     flex-wrap: wrap;
@@ -91,6 +93,7 @@ main{
  .planos{
     color: #fff;
     font-size: 2.5em;
-    position: absolute;
-    height: 700px;
+    /* position: absolute; */
+    /* height: 90px; */
+    margin-left: 90vh;
  }
