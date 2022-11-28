@@ -5,7 +5,7 @@
 Esse é o projeto de Modulo 2 do curso de Desenvolvimento Web da Resilia Educação. Fomos orientados a criar as páginas de um produto de apoio a programadores.
 Nosso projeto é um serviço de armazenamento em nuvem com suporte a edição de código.
 
-Poderiamos usar o bootstrap para a criação de paginas e ele foi utilizado para a criação do cabeçalho com menu que interaje com javascript e o rodapé.
+Poderiamos usar o bootstrap para a criação de paginas e ele foi utilizado para a criação do cabeçalho com menu que interage com javascript e o rodapé.
 
 Segue a ilustração das páginas e logo abaixo o detalhamento de cada uma delas:
 
